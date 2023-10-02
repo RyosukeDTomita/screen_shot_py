@@ -1,0 +1,16 @@
+{
+  "flake8.args": ["--ignore=E111, E114, E402, E501"],
+  "autopep8.args": ["--ignore=E114, E402, E501"],
+  "autopep8.path": ["/home/tomita/.local/bin/autopep8"],
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "autoDocstring.guessTypes": false, // 関数の引数に型ヒントを自動でつけない
+  "mypy-type-checker.path": ["/home/tomita/.local/bin/mypy"], // デフォルトでもパスが通っている。
+  "cSpell.userWords": [
+    "pyautogui",
+    "pyperclip"
+  ]
+}
