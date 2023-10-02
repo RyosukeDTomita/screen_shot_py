@@ -8,12 +8,14 @@
 
 # ABOUT
 クリップボードにコピーしてペイントに貼り付ける
+
 # ENVIRONMENT
 windows，ubuntu
+
 # PREPARING
 
 ```shell
-
+pip -r requirements.txt
 ```
 # HOW TO USE
 
