@@ -6,7 +6,7 @@ import os
 import pyautogui
 import subprocess
 import time
-from PIL import ImageGrab, Image
+from PIL import ImageGrab
 import win32clipboard
 
 
